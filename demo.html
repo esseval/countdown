@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Countdown</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://www.santafe.gob.ar/assets/standard/images/favicon.ico">
+    <link rel="stylesheet" href="/restore-form/src/css/custom-materialize.css?version=012021">
+
+    <!-- assets fonts -->
+    <link rel="stylesheet" href="https://www.santafe.gob.ar/assets/standard/css/fonts.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" />
+    <link rel="stylesheet" href="//www.santafe.gob.ar/assets/jquery-ui/jquery-ui-1.10.3/css/gobierno/jquery-ui-1.10.3.custom.css" type="text/css" />
+    <link rel="stylesheet" href="/countdown/src/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="/countdown/dist/css/jquery.countdown.css" type="text/css" />
+</head>
+
+<body>
+
+    <main role="main" class="container">
+
+        <!-- Core -->
+        <div class="card-panel">
+            <h4 class="title">Conteo Regresivo</h4>
+
+            <!-- Lorem ipsum -->
+            <div class="row">
+                <div class="twelvecol">
+                    <p>Lorem ipsum dolor sit amet, aliquid accusamus similique eam in, his sumo nominati conceptam ex, vitae laudem ex pri. Cu sit magna animal aliquando, per fabulas quaestio no. Ei vocent labitur ullamcorper mei. Ad mel movet regione iracundia, ne vix simul fuisset. Vis at natum error lobortis, cu mea modus iusto doctus, mel cu augue falli. Mundi salutatus honestatis an vim. Incorrupte liberavisse est ad, ne semper recusabo eos, in has maiestatis efficiendi.</p>
+                    <p>Aperiam oblique scriptorem nam ad, te luptatum contentiones conclusionemque vim. An nam alterum urbanitas, vim no magna detraxit mediocritatem, et nihil choro est. Ius stet vituperatoribus ei. Propriae moderatius an pro. Tollit iracundia gloriatur mea te, eum diam pertinax at.</p>
+                    <p>Vel libris detraxit ocurreret ne. Pri assum quidam labitur in, per cu vide assum, nam nonumes corrumpit democritum ei. Debet scaevola assueverit ea sea, homero copiosae vix ea. Id cibo quando viderer qui. Qui velit oporteat electram ad, eos ad decore quaerendum.</p>
+                    <p>Enim fabellas vis id, quot fabellas ei est. At his melius tractatos, eos at aeque urbanitas, vix putent invenire id. Eu has nulla volutpat maluisset, in suas nullam rationibus vel. Ut sit etiam quodsi facilis, te qui velit zril antiopam.</p>                    
+                    <p>Dictas iracundia eloquentiam his te, te dicam habemus sea. Est ei posse liber philosophia. Vix meis constituto definitionem ut, in mundi honestatis nam. Eos eius ferri scriptorem id, at atqui necessitatibus eos. Ut pro intellegat assueverit, justo aperiri eum et.</p>
+                </div>
+            </div>
+
+            <!-- DIV con el Contador --> 
+            <div id="countdown" style="display:none; " class="countdown">
+                <div class="final" style="display:none; ">1 SEGUNDO</div>
+                <div class="title"><b>ACTUALIZANDO LA PÁGINA EN ... </b></div>
+                <div class="timer">## SEGUNDOS DE @@</div>
+            </div>
+
+            <div class="row">
+                <div class="col s1">
+                    <button id="detener" type="button"
+                        class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                        <span class="ui-button-text">Detener</span>
+                    </button>
+                </div>
+
+                <div class="col s1">
+                    <button id="arrancar" type="button"
+                        class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                        <span class="ui-button-text">Arrancar</span>
+                    </button>
+                </div>
+            </div>            
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+        <!-- Javascript -->
+        <script src="/countdown/dist/js/jquery.countdown.min.js"></script>
+        <script src="/countdown/src/js/base.js"></script>
+        <script src="/countdown/src/js/app.js"></script>
+        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </main>
+
+    <div class="clearfix"><br></div>
+
+    <footer class="page-footer footer text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 col m8">&nbsp;</div>
+
+                <div class="col s12 col m4">
+                    <div class="sociales marca">
+                        <p>eseval@santafe.gov.ar</p>
+                        <p>
+                            <span class="cc">c</span>
+                            Atribución-CompartirIgual 2.5 Argentina
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
