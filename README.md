@@ -7,7 +7,7 @@ A jQuery plugin to implement a countdown.
 Step 1: include JQuery and jquery.countdown.js in your page
 
     <script src="jquery.js"/>
-    <script src="jquery.restore-form.min.js"></script>
+    <script src="jquery.countdown.min.js"></script>
 
 Step 2: define the html counter
 
