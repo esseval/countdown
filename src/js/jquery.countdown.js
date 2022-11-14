@@ -115,7 +115,7 @@
      * @property {Function} onStart Callback function to call after start the countdown 
      * @property {Function} onStop  Callback function to call after stop the countdown
      * @property {Function} onComplete Callback function to call after the timer reach zero
-     * @property {Function} onShow Callback function to call after the time reach certain value {@link options#showTime} 
+     * @property {Function} onShow Callback function to call after the time reach certain value
      */
 
     /**
@@ -131,14 +131,14 @@
         /** 
          * Vamos a recuperar el texto según el tiempo restante en el contador 
          */
-        let texto = (time === 1) ? $.restoreformOptions.texts.final : $.restoreformOptions.texts.timer;
+        let texto = (time === 1) ? $.countdownOptions.texts.final : $.countdownOptions.texts.timer;
 
         /**
          * Vamos a actualizar el contador 
          */
-        $(`#${dom.id} ${$.restoreformOptions.classTimer}`).html(texto
-            .replace($.restoreformOptions.timeStamp, time)
-            .replace($.restoreformOptions.totalStamp, $.restoreformOptions.totalTime)
+        $(`#${dom.id} ${$.countdownOptions.classTimer}`).html(texto
+            .replace($.countdownOptions.timeStamp, time)
+            .replace($.countdownOptions.totalStamp, $.countdownOptions.totalTime)
         );
     }
 
@@ -196,7 +196,7 @@
          * Store these options so they'll be available to the other functions
          * @type {Options}
          */
-        $.restoreformOptions = options;
+        $.countdownOptions = options;
 
         /**
          * Arrancar contador
